@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="clock.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">    
+    <a href="index.html">   
+      <img src="./image/Me.png" class="logotipo" title="Mercado Eletrônico" alt="Mercado Eletronico"/>
+    </a>
+    <div class="loginIcon">
+        <div>
+            <img src="./image/profile.png" style="width: 50px; height: 50px; background: #fff;" title="Profile" alt="profile"/>
+        </div>
+        <div class="tooltip">
+            <span style="font-weight: bold;">Seja Bem vindo<br>Jorge Cruz</span>
+            
+            <span class="tooltiptext">
+                <img src="./image/profile.png" style="width: 80px; height: 80px;" title="Profile" alt="profile"/>
+                <div style="display: flex; flex-direction: column; text-align: left;">
+                    <span style="padding:1px;"><b>Jorge Cruz</b></span><br>
+                    <a href="#"><span>Alterar Senha</span></a><br>
+                    <a href="#"><span>Alterar Cadastro</span></a>
+                </div>
+            </span>
+          </div>
+    </div>
+</div>
+<div class="sidebar">
+    <a href="#"><ion-icon name="home" class="ion"></ion-icon><span>Home</span></a>
+    <a href="#"><ion-icon name="list"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="camera-outline"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="cart"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="earth"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Loren Ipsum</span></a>
+</div>
+
+<div class="content_login">
+    <div class="box-login">
+      <img src="./image/profile.png" style="width: 160px; height: 160px; margin: 20px 0;"/>
+      <input type="text" class="input_login" placeholder="Digite seu e-mail"/>
+      <input type="email" class="input_login" placeholder="Digite seu senha"/>
+      <input type="email" class="input_login" placeholder="confirme sua senha"/>
+      </span>
+      <button name="comprar" class="bt_comprar" onclick="clicou()">Salvar</button>
+
+    </div>
+    
+       
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+  function clicou() {
+    alert("Sua senha foi Cadastrada!");
+  }
+</script>
+</body>
+</html>
+
+ 

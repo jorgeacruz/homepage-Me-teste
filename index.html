@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="clock.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header"> 
+    <a href="index.html">   
+        <img src="./image/Me.png" class="logotipo" title="Mercado Eletrônico" alt="Mercado Eletronico"/>
+    </a>
+<div class="loginIcon">
+    <div>
+        <img src="./image/profile.png" style="width: 50px; height: 50px;" title="Profile" alt="profile"/>
+    </div>
+    <div class="tooltip">
+        <span style="font-weight: bold;">Seja Bem vindo<br>Jorge Cruz</span>
+        
+        <span class="tooltiptext">
+            <a href="login.html"><img src="./image/profile.png" style="width: 80px; height: 80px;" title="Profile" alt="profile"/></a>
+            <div style="display: flex; flex-direction: column; text-align: left;">
+                <span style="padding:1px;"><b>Jorge Cruz</b></span><br>
+                <a href="login.html"><span>Alterar Senha</span></a><br>
+                <a href="login.html"><span>Alterar Cadastro</span></a>
+            </div>
+        </span>
+      </div>
+</div>
+</div>
+<div class="sidebar">
+    <a href="#"><ion-icon name="home" class="ion"></ion-icon><span>Home</span></a>
+    <a href="#"><ion-icon name="list"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="camera-outline"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="cart"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="earth"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Loren Ipsum</span></a>
+    <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Loren Ipsum</span></a>
+</div>
+
+<div class="content">
+    <div class="linha_1">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+              <div class="text">Mercado Eletrônico</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+              <div class="text">Mercado Eletrônico</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+              <div class="text">Mercado Eletrônico</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮❮</a>
+            <a class="next" onclick="plusSlides(1)">❯❯</a>
+        
+            </div>
+
+            <div>
+                <div class="container">
+                    <div class="calendar">
+                      <div class="front">
+                        <div class="current-date">
+                          <h1>Dia 15 - Sexta</h1>
+                          <h1>Abril 2022</h1>	
+                        </div>
+              
+                        <div class="current-month">
+                          <ul class="week-days">
+                            <li>SEG</li>
+                            <li>TER</li>
+                            <li>QUA</li>
+                            <li>QUI</li>
+                            <li>SEX</li>
+                            <li>SAB</li>
+                            <li>DOM</li>
+                          </ul>
+              
+                          <div class="weeks">
+                            <div class="first">
+                              <span class="last-month">28</span>
+                              <span class="last-month">29</span>
+                              <span class="last-month">30</span>
+                              <span class="last-month">31</span>
+                              <span>01</span>
+                              <span>02</span>
+                              <span>03</span>
+                            </div>
+              
+                            <div class="second">
+                              <span>04</span>
+                              <span>05</span>
+                              <span class="event">06</span>
+                              <span>07</span>
+                              <span>08</span>
+                              <span>09</span>
+                              <span>10</span>
+                            </div>
+              
+                            <div class="third">
+                              <span>11</span>
+                              <span>12</span>
+                              <span>13</span>
+                              <span>14</span>
+                              <span class="active">15</span>
+                              <span>16</span>
+                              <span>17</span>
+                            </div>
+              
+                            <div class="fourth">
+                              <span>18</span>
+                              <span>19</span>
+                              <span>20</span>
+                              <span>21</span>
+                              <span>22</span>
+                              <span>23</span>
+                              <span>24</span>
+                            </div>
+              
+                            <div class="fifth">
+                              <span>25</span>
+                              <span>26</span>
+                              <span>27</span>
+                              <span>28</span>
+                              <span>29</span>
+                              <span>30</span>
+                              <span>31</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                    
+                  </div>
+            </div>
+    </div>
+
+    <div class="linha_2">
+        <div class="produtos">
+            <span>#12234455</span>
+            <img src="./image/chamex.jpg" class="img_prod" />
+            <span class="descricao">Papel Sulfite 75g Alcalino 210x297<br>A4 Chamex Ofice lpaper</span>
+            <span class="preco">R$30,00</span>
+            <button name="comprar" class="bt_comprar" onclick="compras()">Comprar Agora</button>
+
+        </div>
+        <div class="produtos">
+            <span>#12234455</span>
+            <img src="./image/chamex.jpg" class="img_prod" />
+            <span class="descricao">Papel Sulfite 75g Alcalino 210x297<br>A4 Chamex Ofice lpaper</span>
+            <span class="preco">R$30,00</span>
+            <button name="comprar" class="bt_comprar" onclick="compras()">Comprar Agora</button>
+
+
+        </div>
+        <div class="produtos">
+            <span>#12234455</span>
+            <img src="./image/chamex.jpg" class="img_prod" />
+            <span class="descricao">Papel Sulfite 75g Alcalino 210x297<br>A4 Chamex Ofice lpaper</span>
+            <span class="preco">R$30,00</span>
+            <button name="comprar" class="bt_comprar" onclick="compras()">Comprar Agora</button>
+
+
+        </div>
+
+        <div class="produtos">
+            <span>#12234455</span>
+            <img src="./image/chamex.jpg" class="img_prod" />
+            <span class="descricao">Papel Sulfite 75g Alcalino 210x297<br>A4 Chamex Ofice lpaper</span>
+            <span class="preco">R$30,00</span>
+            <button name="comprar" class="bt_comprar" onclick="compras()">Comprar Agora</button>
+
+
+        </div>
+
+    </div>
+    
+       
+</div>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+function compras() {
+    alert("Compras realizada com sucesso!");
+}
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+ 
